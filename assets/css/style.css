@@ -121,6 +121,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-style: normal;
+  margin: 0;
 }
 
 /* line 13, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_common.scss */
@@ -9134,3 +9135,13 @@ input:focus {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.logo img{
+  display: block;
+  width: 300px;
+  height: auto;
+}
+
+.slider-height2{
+  min-height: 500px;
+}
