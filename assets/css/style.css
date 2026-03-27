@@ -6875,7 +6875,6 @@ input:focus {
 /* line 21, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_feature_part.scss */
 .feature_part .single_feature_part {
   text-align: center;
-  border: 1px solid #828bb2;
   padding: 35px;
   margin-top: 100px;
 }
@@ -6900,13 +6899,6 @@ input:focus {
   .feature_part .single_feature_part {
     margin-top: 30px;
   }
-}
-
-/* line 36, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_feature_part.scss */
-.feature_part .single_feature_part img {
-  max-width: 42px;
-  min-height: 40px;
-  margin-bottom: 20px;
 }
 
 /* line 41, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_feature_part.scss */
@@ -9058,6 +9050,7 @@ input:focus {
   /* line 7, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_about_us.scss */
   .about_us .about_us_content h5 {
     font-size: 18px;
+    margin: 60px 0 0;
   }
 }
 
@@ -9073,62 +9066,10 @@ input:focus {
 @media (max-width: 991px) {
   /* line 15, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_about_us.scss */
   .about_us .about_us_content h3 {
-    margin: 5px 0 30px;
+    margin: 5px 0 3px;
     font-size: 20px;
   }
 }
-
-/* line 27, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_about_us.scss */
-.about_us .about_video_icon {
-  height: 84px;
-  width: 84px;
-  line-height: 84px;
-  border-radius: 50%;
-  background-color: #795376;
-  display: inline-block;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  top: 41%;
-}
-
-@media (max-width: 576px) {
-  /* line 27, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_about_us.scss */
-  .about_us .about_video_icon {
-    height: 50px;
-    width: 50px;
-    line-height: 50px;
-  }
-}
-
-/* line 44, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_about_us.scss */
-.about_us .about_video_icon:after {
-  position: absolute;
-  content: "";
-  width: 14px;
-  height: 18px;
-  background-color: #fff;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  top: 41%;
-  clip-path: polygon(100% 50%, 0 0, 0 100%);
-}
-
-@media (max-width: 576px) {
-  /* line 44, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_about_us.scss */
-  .about_us .about_video_icon:after {
-    top: 32%;
-  }
-}
-
-/************ about_us css end ***************/
-/* line 2, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_breadcrumb.scss */
-
-/* line 8, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_breadcrumb.scss */
-
-/* line 10, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_breadcrumb.scss */
 
 @media (max-width: 991px) {
   /* line 10, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_breadcrumb.scss */
@@ -9150,3 +9091,65 @@ input:focus {
   text-align: left;
   margin-left: -80px;
 }
+
+.about_us_video {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+}
+
+.about_us_video img {
+  width: 100%;
+  display: block;
+}
+
+.about_us_video img {
+  width: 100%;
+  display: block;
+}
+
+.about_us_content{
+  margin: 30px 30px 30px;
+}
+
+.padding_top{
+  padding-top: 50px;
+}
+
+.about_us .about_us_content h3{
+  padding-bottom: 50px;
+}
+
+.feature_part .feature_part_tittle h3{
+  font-size: 35px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.single_feature_part {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.col-lg-3 {
+  flex: 0 0 33.333%;
+  max-width: 33.333%;
+}
+
+.single_feature_part img {
+  width: 100%;
+  height: auto;
+  display: block;
+  height: 440px;
+  object-fit: cover;
+}
+
+.feature_part .single_feature_part h4{
+  font-size: 25px;
+  margin-top: 15px;
+}
+
