@@ -81,3 +81,19 @@
 .ti-email:before {
 	content: "\e75a";
 }
+
+
+
+.moje-rada {
+   display: grid !important;
+   grid-template-columns: 1fr 1fr 1fr; 
+   gap: 20px;                       
+   width: 100%;
+}
+
+.product-img img {
+   width: 100% !important;
+   height: 100% !important;   
+   object-fit: cover !important;
+   display: block;
+}
