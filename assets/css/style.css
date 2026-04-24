@@ -2103,34 +2103,6 @@ input:focus {
   color: #ff003c;
 }
 
-/* line 106, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_headerMenu.scss */
-.header-bottom .main-menu ul li.hot {
-  position: relative;
-}
-
-/* line 108, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_headerMenu.scss */
-.header-bottom .main-menu ul li.hot::before {
-  position: absolute;
-  content: "HOT";
-  background: #ff003c;
-  color: #fff;
-  text-align: center;
-  border-radius: 8px;
-  font-size: 10px;
-  top: 19px;
-  right: -13px;
-  -webkit-transition: all 0.2s ease-out 0s;
-  -moz-transition: all 0.2s ease-out 0s;
-  -ms-transition: all 0.2s ease-out 0s;
-  -o-transition: all 0.2s ease-out 0s;
-  transition: all 0.2s ease-out 0s;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  padding: 3px 8px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: 500;
-}
-
 /* line 129, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_headerMenu.scss */
 .header-bottom .main-menu ul ul.submenu {
   position: absolute;
