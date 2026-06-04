@@ -8941,7 +8941,7 @@ input:focus {
 .header-bottom {
     height: 90px;
     padding: 0 170px;
-
+    font-size: 40px;
 
     display: flex;
     align-items: center;

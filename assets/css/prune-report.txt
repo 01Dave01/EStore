@@ -1,0 +1,5 @@
+Original size: 349793 bytes
+Pruned size: 336160 bytes
+Rules considered removed: 0
+
+Sample removed selectors (first 200):

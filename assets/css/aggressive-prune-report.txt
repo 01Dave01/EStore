@@ -1,0 +1,5 @@
+Original bytes: 349793
+Pruned bytes: 363449
+Removed rules: 0
+
+Removed selectors (selector -- start_line):
