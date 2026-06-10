@@ -8946,7 +8946,7 @@ input:focus {
     display: flex;
     align-items: center;
 }
-.row {
+.rada {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
